@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.row{
+    width: 450px;
+    height: 155px;
+    margin-left: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    margin-top: 60px;
+    position: relative;
+}
+.row> #content{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    right: 0;
+    top: 0;
+    float: right;
+    float: top;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid black;
+    border-right:0px solid black;
+    border-bottom: 2px solid black;
+}
+.first-division > #para{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+span{
+    padding-left:25px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+.row-2{
+    width: 450px;
+    height: 155px;
+    margin-right: 27%;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    margin-bottom: 80%;
+    position: relative;
+}
+.row-2> #content-2{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(204, 22, 195);
+    right: 0;
+    top: 0;
+    float: right;
+    float: top;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid black;
+    border-right:0px solid black;
+    border-bottom: 2px solid black;
+}
+.second-division > #para-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+#span-2{
+    padding-left:45px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+.row-3{
+    width: 450px;
+    height: 155px;
+    margin-left: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    margin-top: 60px;
+    position: relative;
+}
+.row-3> #content-3{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(58, 161, 32);
+    right: 0;
+    top: 0;
+    float: right;
+    float: top;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid black;
+    border-right:0px solid black;
+    border-bottom: 2px solid black;
+}
+.third-division > #para-3{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+#span-3{
+    padding-left:45px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+@media (min-width: 1200px){
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+        float: left;
+        margin-top: 60px;
+    }
+}
